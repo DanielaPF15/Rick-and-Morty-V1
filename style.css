@@ -1,0 +1,211 @@
+* {
+    /*todo el codigo */
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #c7c7c7;
+}
+
+.titulos {
+    font-family: 'Caveat', cursive;
+    /*color: blue;
+    font-size: 30px;
+    background-color: rgb(255, 209, 232);*/
+}
+
+.flex-content {
+    /* Permite que los elementos sean flexibles*/
+    height: 1000px;
+    background-color: rgb(53, 207, 73);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.main-menu {
+    font-family: 'Varela Round', sans-serif;
+    /*fuentes google*/
+    display: flex;
+    align-items: center;
+    /*centrados alto */
+    justify-content: center;
+    /*ancho*/
+    color: rgb(255, 255, 255);
+    background-color: #363f46;
+
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.opt-menu {
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.opt-menu li {
+    list-style: none;
+    width: 15%;
+}
+
+.opt-menu a:hover {
+    /*permitte que cuando pase el mause ejecute una accion*/
+    background-color: rgb(19, 156, 33);
+    /**cambio de color*/
+    border: 3px rgb(19, 156, 33) solid;
+    /*no funciona sin el solid*/
+    /*es para aumentar el tamaño*/
+    border-radius: 15%;
+}
+
+.border-div {
+    font-size: 15px;
+    /*MARGENES*/
+    /*MARGIN: 5%; AGREGA ATODOS LOS LADOS MARGEN*/
+    /*margin-top,marging-left,marging-right,marging-bottom=> por lados*/
+    margin: 5% 3% 0% 6%;
+    border: 10px rgb(203, 203, 221) solid;
+    border-bottom: 20px blue solid;
+    border-radius: 30px;
+
+}
+
+.main-characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*agrega los elemnetos en diferentes lineas*/
+}
+
+.character {
+    width: 25%;
+    margin: 3%;
+    border: 2px #549963 solid;
+    border-right: 3px #549963 solid;
+    /*derecha*/
+    border-bottom: 3px #549963 solid;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(241, 240, 240);
+
+}
+
+.character img {
+    width: 60%;
+    border-radius: 3%;
+}
+
+.character h2 {
+
+    font-weight: bold;
+    /*se ve en todos los navegadores*/
+    margin-bottom: 3%;
+}
+
+.info-character {
+    width: 90%;
+    text-align: justify;
+    padding: 3%;
+    /*centro*/
+}
+
+.container {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 1% 10% 5% 8%;
+    /*manecillas del reloj margin-left: 8%;
+    margin-right: 4%;
+    margin-top: 1%;*/
+}
+.character p{
+    font-size: 1em;
+    width: 20%; /*30*1=30*/
+}
+footer{
+    background-color: #363f46;
+    color:white;
+    height: 80px;
+    text-align: center;
+}
+footer p{
+    padding-top: 2%;
+
+}
+footer i{
+    color: red;
+    font-size: 2rem;
+}
+.foto img{
+    width: 40%;
+    border-radius: 30%;
+    border: 4px #f8f8f8 solid;
+    border-right: 4px #fafdfb solid;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*agrega los elemnetos en diferentes lineas*/
+}
+.foto p{
+    text-align: left;
+}
+.opt-menu a {
+    text-decoration: none;
+    color: white;
+
+}
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.input-form{
+   margin-bottom: 2%;
+}
+.input-form div{
+    width: 30%;
+    float: left;
+}
+.input-form input{
+    width: 60%;
+}
+.form-buttom button{
+    background-color: royalblue;
+    color: rgb(56, 54, 54);
+    border-radius: 10px;
+    border: 5px solid;
+    width: 10%;
+    height: 30px;
+}
+.form-buttom{
+    text-align: center;
+
+}
+.opciones{
+    text-align: left;
+}
+.opt input label{
+    width: 20%;
+}
+.form-flex input{
+    height: 30px;
+    color: teal;
+    border: rgb(11, 29, 56) solid;
+    border-radius: 10px;
+}
+.opt{
+    display: flex;
+    justify-content: space-between;
+}
+.opt h4{
+    text-align: left;
+}

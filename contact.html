@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" type="image/png" href="./image/logo.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+        rel="stylesheet"> <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="main-menu">
+        <img class="logo" src="./image/logo.png">
+
+        <ul class="main-menu opt-menu">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./Sobremi.html">Sobre mi</a></li>
+            <li><a href="./contact.html" target="">Contáctenos</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <h1>Formulario de contacto</h1>
+    <form class="form-flex" method="POST" action="">
+        <div class="input-form"> 
+        <div><label for="nombre">Nombre:</label></div>
+        <input id="nombre" name="nombre" type="text" required>
+    </div>
+
+    <div class="input-form"> 
+       <div><label for="apellido">Apellido:</label></div>
+        <input id="apellido" name="apellido" type="text" required>
+    </div>
+        
+    <div class="input-form"> 
+        <div><label for="edad">Edad:</label></div>
+        <input id="edad" name="edad" type="number" required>
+    </div>
+    <div class="input-form"> 
+        <div><label for="email">Email:</label></div>
+        <input id="email" name="email" type="email" required>
+    </div>
+
+    <div class="input-form"> 
+        <div><label for="clave">Contraseña:</label></div>
+        <input id="clave" name="clave" type="password" required>
+    </div>
+    <div class="input-form"> 
+       <div><label for="fechaNacimiento">Fecha de nacimiento:</label></div> 
+        <input id="fechaNacimiento" name="fechaNacimiento" type="date" required>
+    </div>
+   <section class="opt">
+    <div class="opciones"> 
+        <h4>Genero:</h4>
+        <input  id="mujer" name="genero" type="radio">
+        <label for="mujer">Mujer</label>
+        <input  id="hombre" name="genero" type="radio">
+        <label for="hombre">Hombre</label>
+
+    </div>
+    <div class="opciones"> 
+        <h4>Deporte favorito:</h4>
+        <input id="futbol" name="futbol" type="checkbox">
+        <label for="futbol">Futbol</label>
+        <input id="natacion" name="natacion" type="checkbox">
+        <label for="natacion">Natación</label>
+    </div>
+   </section>
+    
+<div class="form-buttom"><button type="submit">Enviar</button></div>
+    </form>
+
+</div>
+</body>
+
+</html>
