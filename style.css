@@ -209,3 +209,8 @@ footer i{
 .opt h4{
     text-align: left;
 }
+a{
+background-color: #2f5337;
+color: #ffffff;
+border-radius: 5px;
+}
